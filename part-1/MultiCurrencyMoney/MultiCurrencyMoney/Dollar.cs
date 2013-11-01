@@ -11,7 +11,7 @@
 
         public void Times(int i)
         {
-            Amount = Amount * 2;
+            Amount *= 2;
         }
     }
 }
