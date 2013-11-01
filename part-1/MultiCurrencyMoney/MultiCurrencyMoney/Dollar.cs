@@ -4,14 +4,14 @@
     {
         public Dollar(int i)
         {
-            
+            Amount = i;
         }
 
         public int Amount { get; set; }
 
         public void Times(int i)
         {
-            Amount = 5 * 2;
+            Amount = Amount * 2;
         }
     }
 }
