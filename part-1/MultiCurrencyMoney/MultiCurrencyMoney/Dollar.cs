@@ -7,11 +7,11 @@
             
         }
 
-        public int Amount { get { return 10; } }
+        public int Amount { get; set; }
 
         public void Times(int i)
         {
-            
+            Amount = 5 * 2;
         }
     }
 }
