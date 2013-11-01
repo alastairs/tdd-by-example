@@ -7,7 +7,7 @@
             
         }
 
-        public int Amount { get; set; }
+        public int Amount { get { return 10; } }
 
         public void Times(int i)
         {
